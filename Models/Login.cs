@@ -10,7 +10,8 @@ namespace ctrlspec.Models
     {
         [Key]
         public int LoginId{get;set;}
-        public string? Name{get;set;}
+        public string? Last Name{get;set;}
+        public string? First Name{get;set;}
 
         public string? EmailId{get;set;}
 
